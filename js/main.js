@@ -28,7 +28,6 @@ $('.tab_content').first().show();
         pauseOnHover: false,
         autoplaySpeed: 2500,
         speed: 1000,
-
     });
 
     $('#section4 .slick').slick({
