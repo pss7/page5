@@ -1,15 +1,19 @@
 $(function () {
 
 
-    /* section1 */
+    /* section1 
     $('.tab_content').hide();
     $('.tab_content').first().show();
     $('#section1 .top .tab li').click(function () {
+        $('#section1 .top .tab li').children().removeClass('active');
+        $(this).children().addClass('active');
         var Idx = $(this).index();
         $('.tab_content').hide();
         $('.tab_content').eq(Idx).show();
     });
-
+*/
+$('.tab_content').hide();
+$('.tab_content').first().show();
     $('#section1 .slick').slick({
         variablewidth: true,
         autoplay: true,

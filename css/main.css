@@ -8,6 +8,7 @@
 #section1 .top h3{margin-right: 10px; font-weight: 400;}
 #section1 .top .tab{display: flex; gap: 0 6px; align-items: center;}
 #section1 .top .tab li a{display: block; width: 80px; height: 26px; border-radius: 40px; border: 1px solid #333; opacity: .5; text-align: center;}
+#section1 .top .tab li a.active{opacity: 1;} 
 #section1 .tab_content .list{display: flex; gap: 0 120px; justify-content: space-between;}
 #section1 .tab_content .list li{width: 33.33%; margin: 0 50px;}
 #section1 .tab_content .list li a{display: block; transition: all .5s;}
