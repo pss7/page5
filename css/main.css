@@ -17,9 +17,9 @@
 #section1 .list > li h4{margin-bottom: 20px; font-size: 20px;}
 #section1 .list > li .img_box{margin-bottom: 30px; box-shadow: 5px 5px 10px rgba(0,0,0,.2); overflow: hidden; border-radius: 10px;}
 #section1 .list > li .img_box img{display: block; width: 100%; height: 100%; object-fit: cover;}
-#section1 .list > li h5{height: 81px; margin-bottom: 25px; padding-bottom: 20px;  border-bottom: 1px solid #dfdfdf; font-size: 20px;}
+#section1 .list > li h5{height: 74px; margin-bottom: 18px; padding-bottom: 20px;  border-bottom: 1px solid #dfdfdf; font-size: 20px;}
 #section1 .text{min-height: 30px; margin-bottom: 20px;}
-#section1 .text li{width: auto; margin: 0; font-size: 15px; color: #333;}
+#section1 .text li{width: auto; margin: 0; color: #333;}
 #section1 .list > li a span{display: block; height: 40px; line-height: 38px; border-radius: 50px; background-color: #f6f6f6; text-align: center;}
 #section1 .control{display: none; gap: 0 15px; position: absolute; top:5px; right:0; }
 #section1 .control button{display: block; padding: 16px 16px 0 0; background: url(../images/main/arrow.png)no-repeat; cursor: pointer;}
