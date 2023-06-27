@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 /* 가운데 영역 */
-.container{max-width:1300px; margin: 0 auto; padding: 0 10px;}
+.container{max-width:1320px; margin: 0 auto; padding: 0 20px;}
+
+#wrap{overflow-x: hidden;}
 
 /* header */
 #header{padding: 0 20px; border-bottom: 1px solid #dbdddc}
@@ -31,17 +33,20 @@
 #header .check:hover{color: #fff; border: 0;}
 #header .check:hover span{color: #fff;}
 #header .check span{color: #00afad; font-weight: 500;}
-
 #sitemap{display: none; position: absolute; top:64px; left:0; right:0; min-height: 400px; padding: 20px; background-color: #fff; z-index: 1; border-bottom: 1px solid #dbdddc;}
 #sitemap .sitemap_depth1{display: flex; gap: 0 20px}
 #sitemap .sitemap_depth1 > li{flex: 1; text-align: center;}
 #sitemap .sitemap_depth1 > li h2 a{display: block; padding: 10px 0; border-bottom: 2px solid #00afad; font-size: 18px; color: #666; font-weight: 500;}
-
 #sitemap .sitemap_depth2{padding: 10px;}
 #sitemap .sitemap_depth2 li h3 a{display: block; padding: 6px 10px; color: #666; font-weight: 400; font-size: 16px; text-align: left;}
 
+@media(max-width: 1024px){
 
+    #header nav{display: none;}
+    #header .header_right ul{display: none;}
+    #header .header{height: 55px;}
 
+}
 
  /* footer */
  #footer #footer_top{border: 1px solid #dcdcdc; border-width: 1px 0;}
@@ -56,6 +61,22 @@
  #footer #footer_bottom .right address{font-size: 14px; color: #a0a0a0; line-height: 1.2;}
  #footer #footer_bottom .right address strong{font-weight: 500;}
  #footer #footer_bottom .right address span{color: #585858;}
+
+ @media (max-width: 768px){
+
+    #footer #footer_bottom{padding: 20px 0 25px;}
+    #footer .footer_bottom{display: block; text-align: center;}
+    #footer #footer_bottom .left .text span{margin: 0 0 5px; font-size: 30px;}
+    #footer #footer_bottom .left .text strong{font-size: 22px;}
+    
+ }
+
+ @media (max-width: 480px){
+
+    #footer .link_wrap{overflow-x: auto;}
+    #footer #footer_top ul.link{width: 480px;}
+    
+ }
 
  /* aside */
  aside{position: fixed; bottom: 50px; right: 50px;}
