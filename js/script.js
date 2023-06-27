@@ -8,4 +8,15 @@ $(function () {
 
     });
 
+    $('#header .header_right .sitemap').click(function(){
+        $('#sitemap').fadeIn();
+        $('.sitemap').hide();
+        $('.sitemap_close').show();
+    });
+    $('#header .header_right .sitemap_close').click(function(){
+        $('#sitemap').fadeOut();
+        $('.sitemap').show();
+        $('.sitemap_close').hide();
+    });
+
 });
