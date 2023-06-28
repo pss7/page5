@@ -58,18 +58,17 @@
         
 }
 
-
 /* section2 */
 #section2 {padding: 60px 0;}
 #section2 .text_box a{position: relative; height: 143px; padding: 18px 20px; display: block; background-color: #e1e1e1; text-align: center;}
-
+#section2 .text_box a .text.st em{font-weight: 300;}
 #section2 .text_box a .text.st p{padding-bottom: 5px;}
 #section2 .text_box a .text.st span{color: #e44e94; font-weight: 700; font-size: 28px;}
 #section2 .text_box a .text.st p::after{width: 307px; bottom: 0;}
 #section2 .text_box a .text{display: flex; height: 100%; flex-direction: column; align-items: center; justify-content: center;}
 #section2 .text_box a::after{content: ''; padding: 24px 24px 0 0; position: absolute; top:15px; right:20px; background: url(../images/main/arrow2.png)no-repeat; background-size: auto 100%;}
 #section2 .text_box a p {position: relative; padding-bottom: 20px; font-size: 0;}
-#section2 .text_box a p em{display: block; font-size: 20px; line-height: 1.2; font-weight: 300;}
+#section2 .text_box a p em{display: block; font-size: 20px; line-height: 1.2;}
 #section2 .text_box a p::after{content: ''; position: absolute; bottom: 9px; left: 50%; transform: translateX(-50%); width: 393px; height: 1px; background-color: #ada8a8;}
 #section2 .text_box a p strong{font-size: 30px; display: block; color: #00afad;}
 #section2 .text_box a span{font-size: 18px; }

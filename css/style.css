@@ -46,6 +46,7 @@
     #header nav{display: none;}
     #header .header_right ul{display: none;}
     #header .header{height: 55px;}
+    #sitemap{display: none!important;}
 
 }
 
