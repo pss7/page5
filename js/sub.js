@@ -19,19 +19,19 @@ $(function () {
     });
 
     $('.click1').click(function () {
-        window.scrollTo({left:0, top:6000});
+        window.scrollTo({left:0, top:6400});
     });
     $('.click2').click(function () {
         window.scrollTo({left:0, top:7100});
     });
     $('.click3').click(function () {
-        window.scrollTo({left:0, top:8200});
+        window.scrollTo({left:0, top:7900});
     });
     $('.click4').click(function () {
-        window.scrollTo({left:0, top:10500});
+        window.scrollTo({left:0, top:9500});
     });
     $('.click5').click(function () {
-        window.scrollTo({left:0, top:16200});
+        window.scrollTo({left:0, top:13400});
     });
 
 });
