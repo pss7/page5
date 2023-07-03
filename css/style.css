@@ -22,7 +22,7 @@ body.mobilemenu{overflow: hidden;}
 #header .depth2 li h3 a:hover{font-weight: 500;}
 #header .header_right{display: flex; align-items: center;}
 #header .header_right ul{margin-right: 30px; display: flex; align-items: center; gap: 0 25px;}
-#header .header_right ul li{font-size: 13px;}
+#header .header_right ul li{font-size: 14px;}
 #header .header_right ul li::after{content: ''; position: absolute; top:4px; right:-14px; width: 1px; height: 12px; background: #ddd;}
 #header .header_right ul li.number{position: relative; padding-left: 27px; color: #00afad;}
 #header .header_right ul li.number::before{content: ''; position: absolute; top: 50%; transform: translateY(-50%); left:0; padding: 20px 21px 0 0; background-size: auto 100%; background-image: url(../images/common/call.png); background-repeat: no-repeat;} 
