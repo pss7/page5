@@ -2,7 +2,7 @@ $(function () {
 
     /* section2 */
     $('#section2 .slick').slick({
-        autoplay: false,
+        autoplay: true,
         arrows: false,
         dots: false,
         infinite: true,
