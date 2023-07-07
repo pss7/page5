@@ -45,5 +45,38 @@ $(function () {
         $('body').removeClass('mobilemenu');
     });
 
+    /* all_menu */
+    $('#header .header_right ul li.link a').click(function () {
+        $('.all_menu_bg').fadeIn();
+        $('#all_menu').addClass('active');
+    });
+    $('#all_menu .all_menu_close').click(function () {
+        $('.all_menu_bg').fadeOut();
+        $('#all_menu').removeClass('active');
+    });
+
+    $('#header .all_menu_btn').click(function () {
+        $('#m_all_menu').fadeIn();
+    });
+    $('#m_all_menu .all_menu_close').click(function () {
+        $('#m_all_menu').fadeOut();
+    });
+
+
+
+    $('#m_all_menu .all_menu_list1 h4 a').click(function () {
+        if ($(this).hasClass('active')) {
+            $('#m_all_menu .all_menu_list1 h4 a').removeClass('active');
+            $('.all_menu_list2').slideUp();
+        } else {
+            $('#m_all_menu .all_menu_list1 h4 a').removeClass('active');
+            $('.all_menu_list2').slideUp();
+            $(this).addClass('active');
+            $(this).parents('li').find('.all_menu_list2').slideDown();
+        }
+    });
+
+
+
 
 });
