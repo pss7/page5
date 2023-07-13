@@ -200,6 +200,7 @@
 .introduce_wrap .introduce_content .text_box ul li::before{content: ''; left: 0; position: absolute; top: 50%; transform: translateY(-50%); width: 5px; height: 5px; background-color: #333; border-radius: 50px;}
 .com_view{position: absolute; padding-right: 25px; right:0; bottom: 50px; font-size: 18px; white-space: nowrap;}
 .com_view::after{content: ''; position: absolute; top:6px; right:0;  padding: 16px 16px 0 0; background: url(../images/sub/arrow1.png)no-repeat;}
+.environment_wrap{background-color: #FDFAF5;}
 .environment_wrap .environment{padding: 100px 0; display: flex; align-items: flex-start; justify-content: space-between; position: relative;}
 .environment_wrap .environment h4{position: relative; padding-bottom: 30px; font-size: 38px; line-height: 1.3;}
 .environment_wrap .environment h4::after{content: ''; position: absolute; bottom: 0; left:0; right:0; height: 1px; background-color: #00afad;}
