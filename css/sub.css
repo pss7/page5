@@ -202,13 +202,13 @@
 .com_view::after{content: ''; position: absolute; top:6px; right:0;  padding: 16px 16px 0 0; background: url(../images/sub/arrow1.png)no-repeat;}
 .environment_wrap{background-color: #FDFAF5;}
 .environment_wrap .environment{padding: 100px 0; display: flex; align-items: flex-start; justify-content: space-between; position: relative;}
-.environment_wrap .environment h4{position: relative; padding-bottom: 30px; font-size: 38px; line-height: 1.3;}
+.environment_wrap .environment h4{position: relative; padding-bottom: 30px; font-size: 40px; font-weight: 500; line-height: 1.3;}
 .environment_wrap .environment h4::after{content: ''; position: absolute; bottom: 0; left:0; right:0; height: 1px; background-color: #00afad;}
-.environment_wrap .environment ul li{position: relative; margin-bottom: 50px; padding-left: 150px;}
-.environment_wrap .environment ul li::before{content: ''; padding: 100px 100px 0 0; position: absolute; left:0; top: 50%; transform: translateY(-50%); background-size: auto 100%; background-repeat: no-repeat;}
+.environment_wrap .environment ul li{position: relative; margin-bottom: 50px; padding-left: 125px;}
+.environment_wrap .environment ul li::before{content: ''; padding: 78px 78px 0 0; position: absolute; left:0; top: 11px; background-size: auto 100%; background-repeat: no-repeat;}
 .environment_wrap .environment ul li:nth-child(1):before{background-image: url(../images/sub/icon_1.png);}
-.environment_wrap .environment ul li:nth-child(2):before{background-image: url(../images/sub/icon_2.png);}
-.environment_wrap .environment ul li:nth-child(3):before{padding: 90px 100px 0 0; background-image: url(../images/sub/icon_3.png);}
+.environment_wrap .environment ul li:nth-child(2):before{padding: 66px 71px 0 0; background-image: url(../images/sub/icon_2.png);}
+.environment_wrap .environment ul li:nth-child(3):before{padding: 65px 73px 0 0; background-image: url(../images/sub/icon_3.png);}
 .environment_wrap .environment ul li h5{margin-bottom: 10px; font-size: 26px;}
 .environment_wrap .environment ul li p{font-size: 22px;}
 .introduce_wrap .consulting_wrap{position: relative;  padding: 50px 20px; background-color: #f0f0f0; text-align: center;}
@@ -256,8 +256,9 @@
 
     .environment_wrap .environment{display: block; padding: 75px 0; text-align: center;}
     .environment_wrap .environment h4{margin-bottom: 80px; padding: 0 15px 25px; display: inline-block; font-size: 24px; text-align: center;}
-    .environment_wrap .environment ul li{margin-bottom: 77px; padding: 120px 0 0;}
+    .environment_wrap .environment ul li{margin-bottom: 77px; padding: 95px 0 0;}
     .environment_wrap .environment ul li::before{top: 0; left: 50%; transform: translateX(-50%);}
+    .environment_wrap .environment ul li:nth-child(3):before{top: 10px;}
     .environment_wrap .environment ul li h5{font-size: 22px;}
     .environment_wrap .environment ul li p{font-size: 18px;}
 
