@@ -137,7 +137,9 @@ animation: effect 1s .4s both; line-height: 1.3; font-weight: 700;}
 .lesson_wrap .consulting_wrap strong{display: block; font-size: 40px;}
 .lesson_wrap .consulting_wrap ul li{font-size: 18px;}
 .lesson_wrap .consulting_wrap .link_wrap{margin: 30px 0 0; display: flex; gap: 0 15px; justify-content: center;}
-.lesson_wrap .consulting_wrap .link_wrap a{display: block; width: 150px; height: 45px; line-height: 43px; background-color: #000; color: #fff; text-align: center; border-radius: 5px;}
+.lesson_wrap .consulting_wrap .link_wrap a{display: block; padding: 49px 168px 0 0;background-repeat: no-repeat; background-size: auto 100%;}
+.lesson_wrap .consulting_wrap .link_wrap a.receipt1{background-image: url(../images/sub/receipt1.png);}
+.lesson_wrap .consulting_wrap .link_wrap a.receipt2{background-image: url(../images/sub/receipt2.png);}
 .lesson_wrap .catalogue_wrap{padding: 100px 0; text-align: center;}
 .lesson_wrap .catalogue_wrap p{font-size: 25px;}
 .lesson_wrap .catalogue_wrap p br{display: none;}
@@ -233,7 +235,6 @@ animation: effect 1s .4s both; line-height: 1.3; font-weight: 700;}
     .lesson_wrap .index_wrap h5{font-size: 22px;}
     .lesson_wrap .catalogue_wrap .img{padding: 200px 300px 0 0;}
     .lesson_wrap .catalogue_wrap p{font-size: 20px;}
-    .lesson_wrap .consulting_wrap .link_wrap a{width: 126px; height: 40px; line-height: 38px;}
     .lesson_wrap .box2 ul li{width: 238px; padding-top: 100px;}
     .lesson_wrap .box2 ul li .icon1{padding: 86px 86px 0 0;}
     .lesson_wrap .box2 ul li .icon2{padding: 72px 96px 0 0;}
@@ -287,8 +288,8 @@ animation: effect 1s .4s both; line-height: 1.3; font-weight: 700;}
     .lesson_wrap h5.tit + .img{padding: 280px 0 0 0;}
     .lesson_wrap .list li{font-size: 14px;}
     .lesson_wrap .list li::before{top: 9px;}
+    .lesson_wrap .consulting_wrap .link_wrap a{padding: 42px 145px 0 0;}
     
-
 }
 
 /* 학원소개 */
@@ -498,9 +499,28 @@ animation: effect 1s .4s both; line-height: 1.3; font-weight: 700;}
 .lesson_wrap .catalogue_wrap.st2 .img{background: url(../images/sub/img5.png)no-repeat center;}
 .lesson_wrap .catalogue_wrap.st2 .img{margin: 100px 0 30px;}
 
+@media (max-width: 1480px){
+
+    .sub_wrap .sub_tit .box.st{margin-left: calc(50% - 343px);}
+
+}
+
+@media (max-width: 1024px){
+
+    .sub_wrap .sub_tit .box.st{margin-left: calc(50% - 262px);}
+
+}
+
 @media (max-width: 576px){
 
+    .sub_wrap .sub_tit .box.st{margin-left: calc(50% - 147px);}
     .lesson_wrap .catalogue_wrap.st2 .img{margin: 80px 0 35px;}
+
+}
+
+@media (max-width: 414px){
+
+    .sub_wrap .sub_tit .box.st{margin-left: calc(50% - 121px);}
 
 }
 
